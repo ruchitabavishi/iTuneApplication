@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1 class="header">iTune Application</h1>
+    <table>
+        <tr>
+            <td><span class="text">Enter Song Name :</span></td>
+            <td><input class="text" type="text" id="songName" /><br /><br /></td>
+        </tr>
+    </table>
+    <br />
+    <button type="button" id="myBtn" onclick="search()">Search</button>
+    <button type="button" id="disFav" onclick="displayFav()">Display Fav</button>
+    <br />
+    <br />
+    <section>
+        <nav>
+            <div style="overflow:scroll;height:400px;width:100%;overflow:auto">
+
+                <table id="myTable" border="0">
+                    <thead>
+                    </thead>
+                    <tbody>
+                </table>
+            </div>
+        </nav>
+        <article id="divSetvisibility" style="visibility:hidden">
+            <div style="overflow:scroll;height:400px;width:100%;overflow:auto;">
+                <table id="myTableNew">
+                    <tr>
+                        <td id="Td1"></td>
+                        <td id="btnId"></td>
+                    </tr>
+                    <tr>
+                        <td id="Td2"></td>
+
+                    </tr>
+                    <tr>
+                        <td id="Td3"></td>
+
+                    </tr>
+                    <tr>
+                        <td id="Td4"></td>
+
+                    </tr>
+                    <tr>
+                        <td id="Td5"></td>
+
+                    </tr>
+                    <tr>
+                        <td id="Td6"></td>
+
+                    </tr>
+                    <!--<tr>
+                        <td id="Td7"></td>
+
+                    </tr>-->
+                </table>
+            </div>
+        </article>
+
+    </section>
+    <div class="star-five"></div>
+
+</body>
+</html>
